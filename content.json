@@ -1,0 +1,81 @@
+{
+  "results": [
+    {
+      "id": "autumn-valley",
+      "title": "Autumn valley",
+      "prompt": "A cinematic autumn valley with golden forests, slopes, rocks, streams, wooden bridges, cabins, and riverside grasslands. A stream flows downhill through rocky terrain, forming continuous small waterfalls, shallow pools, vortices, and recirculation. A small raft made of independently connected logs floats downstream, with slight relative motion and changing rope tension. The raft tilts and bobs through shallow water and briefly jumps when passing over small waterfalls."
+    },
+    {
+      "id": "mountain-river",
+      "title": "Mountain river",
+      "prompt": "A richly detailed, photorealistic mountain river valley, featuring dense riparian vegetation and weathered rocks, with a naturally winding stream gradually eroding its banks. The flowing water continuously strikes the rocks, splitting, converging, surging, and swirling along the rocky banks and riverbed, creating persistent splashes, ripples, and localized eddies."
+    },
+    {
+      "id": "river-detail",
+      "title": "River dynamics",
+      "prompt": "A richly detailed, photorealistic mountain river valley, featuring dense riparian vegetation and weathered rocks, with a naturally winding stream gradually eroding its banks. The flowing water continuously strikes the rocks, splitting, converging, surging, and swirling along the rocky banks and riverbed, creating persistent splashes, ripples, and localized eddies."
+    },
+    {
+      "id": "forest-stream",
+      "title": "Forest stream",
+      "prompt": "A dense, photorealistic forest, featuring trees of varying heights and trunk thicknesses, shrubs, rocks, moss, grassland, and a naturally winding mountain stream, with large numbers of fallen leaves of diverse shapes, sizes, and weights naturally drifting down from the tree canopy and entering the water."
+    },
+    {
+      "id": "earthquake",
+      "title": "Earthquake in a public building",
+      "prompt": "A large, photorealistic multi-story Brutalist public building organized around massive cantilevered slabs that function as real interior rooms, platforms, and public spaces, rather than isolated structural elements. The building features clearly articulated supports, reinforced-concrete cores and shear walls, multiple floors, staircases, doors, windows, floor slabs, classrooms, libraries, study areas, laboratories, studios, and an auditorium, furnished with desks, chairs, bookshelves, teaching equipment, and numerous loose objects. The entire structure undergoes intense earthquake motion, causing furniture, books, bottles, and classroom props to shake, slide, topple, collide, and fall throughout the building."
+    },
+    {
+      "id": "castle",
+      "title": "Castle bombardment",
+      "prompt": "A monumental medieval castle complex with massive stone walls, towers, gates, stone-paved roads, courtyards, and a surrounding moat. Large numbers of projectiles continuously approach along varied trajectories and densely bombard the walls, towers, and buildings, producing violent explosions, intense flashes, and large quantities of masonry debris. Impacts cause cracking, penetration, detachment, and localized collapse, while continued bombardment triggers cascading structural failures. Bricks, stones, tiles, and wooden beams scatter, tumble, collide, and accumulate under gravity, with some bricks falling into the moat. Explosions and collapsing structures generate dense smoke."
+    },
+    {
+      "id": "shining",
+      "title": "The Shining",
+      "prompt": "A grand vintage luxury hotel with a long, symmetrical red-carpeted corridor, towering walls, ornate woodwork, antique lamps, continuous doorways, columns, arches, and a deep vanishing point. A massive surge of deep crimson liquid bursts through the large double doors at the end of the corridor and continuously spreads across the floor. The liquid splits, merges, and recirculates as it flows around walls, thresholds, and columns. Scattered luggage, wooden furniture, papers, and other lightweight objects are pushed, slid, and rotated."
+    },
+    {
+      "id": "subway",
+      "title": "Subway flooding",
+      "prompt": "A modern underground subway system with long tunnels, tracks, platforms, stairs, concourses, signaling equipment, lightboxes, ticket machines, and subway trains. Large volumes of floodwater suddenly surge into the tunnel and rapidly propagate. The flow splits, merges, recirculates, and accelerates around tracks, platforms, and stairs while gradually inundating low-lying areas. Lightweight objects such as trash bins, boxes, and plastic items are pushed, floated, rotated, and collided with walls and other objects by the rushing water."
+    },
+    {
+      "id": "waterfall",
+      "title": "Canyon waterfall",
+      "prompt": "A majestic natural canyon with towering cliffs, a massive waterfall, a natural pool, streams, rocks, trees, moss, grass, and distant mountains. Large volumes of water continuously cascade into the pool, splitting, merging, splashing, recirculating, and forming localized vortices around complex rocky terrain before flowing downstream along the canyon."
+    },
+    {
+      "id": "restaurant",
+      "title": "Earthquake in a restaurant",
+      "prompt": "A spacious, finely designed modern restaurant with a coherent layout, featuring neatly arranged dining tables and chairs, a bar counter, kitchen window, dish cabinets, glass partitions, pendant lights, decorative plants, wine glasses, plates, utensils, bottles, and other rich interior details. Simulate an indoor earthquake that gradually intensifies from mild shaking, with sustained horizontal and vertical ground motion propagating through the building and producing realistic seismic responses in the furniture, objects, and architectural elements. The camera uses a first-person view, starting at the restaurant entrance and moving through the entire space at a natural walking pace, following the main pathways through the entrance area, main dining area, bar area, central open space, and platforms at different heights."
+    },
+    {
+      "id": "coast",
+      "title": "Coastal waves",
+      "prompt": "A cinematic coastal environment with an open ocean, sandy beach, reefs, sea cliffs, lighthouse, wooden pier, coastal vegetation, and shallow waters. Large waves continuously propagate toward the shore, changing speed and shape in shallow water while flowing around reefs, breaking, splashing, and generating foam before surging onto the beach and forming visible backwash. Droplets and foam particles move with the waves, while receding water leaves dynamic wet regions and trails on the sand. Seaweed, planks, driftwood, and floating debris are naturally displaced by the waves."
+    }
+  ],
+  "forestPrompt": "A dense, photorealistic forest, featuring trees of varying heights and trunk thicknesses, shrubs, rocks, moss, grassland, and a naturally winding mountain stream, with large numbers of fallen leaves of diverse shapes, sizes, and weights naturally drifting down from the tree canopy and entering the water.",
+  "coastPrompt": "A cinematic coastal environment with an open ocean, sandy beach, reefs, sea cliffs, lighthouse, wooden pier, coastal vegetation, and shallow waters. Large waves continuously propagate toward the shore, changing speed and shape in shallow water while flowing around reefs, breaking, splashing, and generating foam before surging onto the beach and forming visible backwash. Droplets and foam particles move with the waves, while receding water leaves dynamic wet regions and trails on the sand. Seaweed, planks, driftwood, and floating debris are naturally displaced by the waves.",
+  "backbones": [
+    {
+      "id": "gpt-sol",
+      "title": "GPT-5.6 Sol",
+      "baseline": "backbone-gpt-sol",
+      "ours": "ours-gpt-sol"
+    },
+    {
+      "id": "gpt-astra",
+      "title": "GPT-6 Astra",
+      "baseline": "backbone-gpt-astra",
+      "ours": "coast"
+    },
+    {
+      "id": "opus",
+      "title": "Opus 5",
+      "baseline": "backbone-opus",
+      "ours": "ours-opus"
+    }
+  ]
+}
